@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ *
+ * @author greenSkin
+ */
+
+/**
+ * Implementation of hook_uninstall().
+ */
+function module_filter_uninstall() {
+  variable_del('module_filter_tabs');
+  variable_del('module_filter_autocomplete');
+}

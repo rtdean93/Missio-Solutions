@@ -1,0 +1,19 @@
+name = fb_social like
+description = fb_social like
+dependencies[] = "fb_social"
+package = "Facebook Social Plugins"
+core=7.x
+
+files[] = fb_social_like.admin.inc
+files[] = fb_social_like.module
+files[] = fb_social_like.views.inc
+files[] = fb_social_like_boxes.inc
+files[] = fb_social_like_settings.inc
+files[] = views/fb_social_like_handler_field_like.inc
+
+; Information added by drupal.org packaging script on 2011-06-18
+version = "7.x-2.x-dev"
+core = "7.x"
+project = "fb_social"
+datestamp = "1308398853"
+

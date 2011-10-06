@@ -1,0 +1,16 @@
+name = fb_social comments
+description = fb_social comments
+dependencies[] = "fb_social"
+package = "Facebook Social Plugins"
+core=6.x
+
+files[] = fb_social_comments.module
+files[] = fb_social_comments_boxes.inc
+files[] = fb_social_settings.inc
+
+; Information added by drupal.org packaging script on 2011-06-18
+version = "7.x-2.x-dev"
+core = "7.x"
+project = "fb_social"
+datestamp = "1308398853"
+

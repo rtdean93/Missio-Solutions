@@ -1,0 +1,4 @@
+[25-Jun-2011 14:32:40] PHP Fatal error:  Call to undefined function  mobile_tools_switch_menu_link() in /home/gignetso/public_html/sites/all/modules/mobile_tools/mobile_tools.module on line 192
+[25-Jun-2011 14:32:43] PHP Fatal error:  Call to undefined function  mobile_tools_switch_menu_link() in /home/gignetso/public_html/sites/all/modules/mobile_tools/mobile_tools.module on line 192
+[25-Jun-2011 14:33:28] PHP Fatal error:  Call to undefined function  mobile_tools_switch_menu_link() in /home/gignetso/public_html/sites/all/modules/mobile_tools/mobile_tools.module on line 192
+[28-Jun-2011 23:41:21] PHP Fatal error:  Cannot access empty property in /home/gignetso/public_html/modules/field/field.multilingual.inc on line 275

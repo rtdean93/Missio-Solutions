@@ -1,0 +1,4 @@
+name = eBible
+description = Generates a preview of scripture tags
+package = Other
+core = 7.x

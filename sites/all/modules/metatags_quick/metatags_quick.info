@@ -1,0 +1,11 @@
+name = Meta tag field
+description = Defines a meta tag field type.
+core = 7.x
+package = Fields
+
+; Information added by drupal.org packaging script on 2011-06-20
+version = "7.x-2.x-dev"
+core = "7.x"
+project = "metatags_quick"
+datestamp = "1308529381"
+

@@ -1,0 +1,42 @@
+
+name = Fusion Mobile
+description = Fusion Mobile sub-theme. Requires <a href="http://drupal.org/project/fusion">Fusion Core</a> and the <a href="http://drupal.org/project/skinr">Skinr</a> module to enable easy point-and-click theming.
+base theme = fusion_core
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/fusion-mobile-style.css
+
+regions[header] = Header
+regions[main_menu] = Main menu
+regions[content] = Content
+regions[footer] = Footer
+regions[help] = Help
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+
+; Default theme settings (override values inherited from fusion_core)
+settings[theme_grid] = grid12-fluid
+settings[theme_grid_options][] = grid12-fluid
+settings[fluid_grid_width] = fluid-100
+settings[theme_font] = none
+settings[theme_font_size] = font-size-14
+settings[breadcrumb_display] = 0
+
+; Sidebar settings not functional in Fusion Mobile
+;settings[sidebar_layout] = sidebars-split
+;settings[sidebar_first_width] = 2
+;settings[sidebar_second_width] = 2
+
+
+; Information added by drupal.org packaging script on 2011-03-17
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "fusion_mobile"
+datestamp = "1300320444"
+

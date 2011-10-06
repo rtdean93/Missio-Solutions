@@ -1,0 +1,10 @@
+<?php
+    $inline_script = <<<EOL
+      <script type="text/javascript" src="http://ebible.com/assets/verselink/ebible.verselink.js"></script>
+EOL;
+    $element = array(
+      '#type' => 'markup',
+      '#markup' => $inline_script,
+    );
+    drupal_add_html_head($element, 'ebible');
+?>

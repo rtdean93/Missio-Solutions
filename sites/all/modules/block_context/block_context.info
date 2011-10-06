@@ -1,0 +1,15 @@
+name = "Block Context"
+dependencies[] = "block"
+description = "Manage blocks by their context"
+package = "Administration"
+core = "7.x"
+
+files[] = block_context.module
+files[] = block_context_ui.module
+scripts[] = block_context.js
+; Information added by drupal.org packaging script on 2011-09-06
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "block_context"
+datestamp = "1315267594"
+
